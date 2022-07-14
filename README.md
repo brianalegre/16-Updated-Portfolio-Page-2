@@ -1,39 +1,31 @@
-# 08-Update Portfolio
+# 16-Update-Portfolio-Page-2
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Description
+## Table of Contents 📑
+- [Description](#description)
+- [Site Preview](#site-preview)
+- [Links](#links)
+- [Criteria](#criteria)
+- [Technologies](#technologies)
+- [Questions](#questions)
+- [License](#license)
 
-Update your Portfolio that was created back in week2 with your recent projects.
+## Description
+Update your Portfolio that was updated back in week8 with your recent projects.
 
-# Site Preview
-
+## Site Preview
 <p align="center">
     <img alt="Site Preview" src="./assets/images/SitePreview.png">
 </p>
 
-# Github Links
+# Links
+-   GitHub Repository: 
+    - https://github.com/brianalegre/16-Updated-Portfolio-Page-2
+-   GitHub Deployed: 
+    - https://brianalegre.github.io/16-Updated-Portfolio-Page-2/
 
--   Repository: https://github.com/brianalegre/08-Updated-Portfolio-Page
--   Deployed: https://brianalegre.github.io/08-Updated-Portfolio-Page/
-
-# Requirements:
-
--   Developer's Name
--   Recent photo or avatar --> Done
--   Links to sections about them, work, or contact
-
--   Navigation links to section on the page --> Done
--   -   Scrolls to the section --> Done
-
--   Section with tilted images of develop's applications
--   -   First application image is bigger than the rest of the applications
-
--   Image application is clickable
--   -   Takes you to the deployed application
-
--   Mobile compatibility
-
-## Acceptance Criteria
-
+## Criteria:
+```
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
 WHEN I load their portfolio
@@ -53,3 +45,19 @@ THEN I am taken to that deployed application
 
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+```
+
+## Technologies
+ - HTML
+ - CSS
+ - Javascript
+
+## Questions
+Questions? Concerns?  Contact Me Below:
+- Github Username: brianalegre
+- Github Link: https://github.com/brianalegre 
+- Email: brialegre@yahoo.com
+
+## License
+- Copyright 2022 Brian Alegre
+- Licensed under the: [MIT License](https://opensource.org/licenses/MIT) 
