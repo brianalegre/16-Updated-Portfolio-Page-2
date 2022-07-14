@@ -9,6 +9,7 @@
 html {
 	scroll-behavior: smooth;
 }
+
 /* End Universal Selector Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -52,6 +53,7 @@ h3 {
 	width: 100%;
 	border-radius: 10px;
 }
+
 /* End Multiple Sections */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -151,6 +153,7 @@ nav h1 {
 nav .fa {
 	display: none;
 }
+
 /* End Header Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -181,6 +184,7 @@ nav .fa {
 	margin-right: 30px;
 	border-radius: 50%;
 }
+
 /* End About Me Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -201,6 +205,7 @@ nav .fa {
 	/* Shadow effect, black all around*/
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
 /* End About Me Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -241,6 +246,7 @@ nav .fa {
 	bottom: 49%;
 	opacity: 1;
 }
+
 /* End Tools Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -262,6 +268,36 @@ nav .fa {
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
 		url('../images/RPS4.png');
 }
+
+.appLinks {
+	display: flex;
+	justify-content: space-evenly;
+	border: 1px solid #000;
+
+
+}
+
+.singleLink {
+	width: 100px;
+	height: 25px;
+	margin-top: 25px;
+	border: 1px solid #000;
+
+
+}
+
+.singleLink a {
+	text-decoration: none;
+	/* color: #000; */
+	color: #f44336;
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.5s;
+	/* font-family: 'Poppins', sans-serif; */
+	/* border: 1px solid #000; */
+	/* margin-top:  */
+}
+
 /* End Application Section */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -278,6 +314,7 @@ nav .fa {
 	transition-duration: 0.3s;
 	transition-property: transform;
 }
+
 .hvr-grow-rotate:hover,
 .hvr-grow-rotate:focus,
 .hvr-grow-rotate:active {
@@ -293,11 +330,13 @@ nav .fa {
 	transition-duration: 0.3s;
 	transition-property: transform;
 }
+
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
 	transform: scale(1.1);
 }
+
 /* End Hover Effects */
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
@@ -449,6 +488,7 @@ nav .fa {
 }
 
 @media screen and (max-width: 700px) {
+
 	.skills-format,
 	.about-section {
 		background: #f9a6a6;
