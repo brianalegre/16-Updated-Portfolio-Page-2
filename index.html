@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<!-- Link Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- For adding the Nav Bar Button on Media Query -->
+		<!-- CDN for Nav Icon/Buttons -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<title>Brian Alegre | Web Developer</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h1>Brian Alegre</h1>
+				<section class="nav-links" id="navLinks">
+					<!-- Closing Icon for Media Query Nav Bar -->
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="#aboutMe"> About Me </a>
+						</li>
+						<li>
+							<a href="#skills"> Skills </a>
+						</li>
+						<li>
+							<a href="#tools"> Tools </a>
+						</li>
+						<li>
+							<a href="#app"> Applications </a>
+						</li>
+						<li>
+							<a href="#contact"> Contact </a>
+						</li>
+					</ul>
+				</section>
+				<!-- Menu Icon for Media Query Nav Bar -->
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<section class="text-box">
+				<h1>Brian Alegre</h1>
+				<p>Web Developer</p>
+			</section>
+		</header>
+
+		<!-- About Me -->
+		<article id="aboutMe">
+			<h1>About Me</h1>
+			<p>Learn a few things about me</p>
+			<div class="row">
+				<section class="about-section">
+					<img
+						src="./assets/images/20130224-_DSC7981.jpg"
+						alt="Picture of Me"
+					/>
+					<div>
+						<h4>Hi, I'm Brian Alegre!</h4>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Dolorem repudiandae quam dignissimos velit.
+							Obcaecati, debitis eum, reprehenderit quos hic
+							praesentium quaerat vel in sit quas iste quasi. Et,
+							non? Ea!
+						</p>
+					</div>
+				</section>
+			</div>
+		</article>
+
+		<!-- Skills -->
+		<section id="skills" class="page-section">
+			<h1>Skills</h1>
+			<p>Here are the skills I have learned thus far</p>
+			<div class="row">
+				<div class="section-box skills-format">
+					<h3>HTML5</h3>
+				</div>
+				<div class="section-box skills-format">
+					<h3>CSS</h3>
+				</div>
+				<div class="section-box skills-format">
+					<h3>JavaScript</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tools -->
+		<section id="tools" class="page-section">
+			<h1>Tools</h1>
+			<p>My everyday tools</p>
+			<div class="row">
+				<div class="section-box">
+					<img src="./assets/images/app-icon.png" alt="VS Code" />
+					<div class="tools-layer">
+						<h3>Visual Studio Code</h3>
+					</div>
+				</div>
+				<div class="section-box">
+					<img src="./assets/images/github2.png" alt="Github" />
+					<div class="tools-layer">
+						<h3>Github</h3>
+					</div>
+				</div>
+				<div class="section-box">
+					<img src="./assets/images/slack.png" alt="Slack" />
+					<div class="tools-layer">
+						<h3>Slack</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Applications -->
+		<div class="center">
+			<h1>My Applications</h1>
+			<p>
+				Some projects I've worked on, <br />
+				and some coming soon...
+			</p>
+		</div>
+		<section class="rows justify-center">
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">The Movie Library</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/Project1/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/movieLibrary.png"
+								alt="The Movie Library"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">Weather Dashboard</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/06-Server-Side-APIs-Homework/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/weatherDashboard.png"
+								alt="Weather Dashboard"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">Pokémon Quiz</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/04-Web-APIs-Homework/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/pokemonQuiz.png"
+								alt="Pokemon Quiz"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">Excursion</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/Excursion-CodeAcademy/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/excursion.png"
+								alt="Excursion"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">Work Day Scheduler</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/05-Third-Party-APIs-Homework/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/workDayScheduler.png"
+								alt="Work Day Scheduler"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+
+			<div class="card-column">
+				<figure class="card code-card">
+					<h3 class="card-header">Password Generator</h3>
+					<div class="card-body">
+						<a
+							class="hvr-grow"
+							href="https://brianalegre.github.io/03-JavaScript-Homework/"
+							target="_blank"
+						>
+							<img
+								src="./assets/images/passwordGenerator.png"
+								alt="Rock Paper Scissors"
+							/>
+						</a>
+					</div>
+				</figure>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<footer id="contact">
+			<h4>Contact Me</h4>
+			<address class="icons">
+				<a
+					class="hvr-grow"
+					href="https://github.com/brianalegre"
+					target="_blank"
+					><i class="fa fa-github"></i
+				></a>
+				<a
+					class="hvr-grow"
+					href="https://www.linkedin.com/in/brian-alegre/"
+					target="_blank"
+					><i class="fa fa-linkedin"></i
+				></a>
+				<a class="hvr-grow" href="mailto: brialegre@yahoo.com"
+					><i class="fa fa-envelope"></i
+				></a>
+				<a
+					class="hvr-grow"
+					href="https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true"
+					target="_blank"
+					><i class="fa fa-file-text"></i>
+				</a>
+			</address>
+			<p>&copy; 2022 Brian Alegre</p>
+		</footer>
+
+		<!-- Javascript for Hiding and Showing Nav Menu on Media Query  -->
+		<script>
+			var navLinks = document.getElementById('navLinks');
+
+			function showMenu() {
+				navLinks.style.right = '0';
+			}
+			function hideMenu() {
+				navLinks.style.right = '-1000px';
+			}
+		</script>
+	</body>
+</html>
