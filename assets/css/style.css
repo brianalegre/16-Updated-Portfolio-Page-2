@@ -201,7 +201,8 @@ nav .fa {
 	transition: 0.5s;
 }
 
-.skills-format:hover {
+.skills-format:hover,
+.singleLink:hover {
 	/* Shadow effect, black all around*/
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -272,7 +273,8 @@ nav .fa {
 .appLinks {
 	display: flex;
 	justify-content: space-evenly;
-	border: 1px solid #000;
+	/* border: 1px solid red; */
+	margin-top: 20px;
 
 
 }
@@ -280,8 +282,12 @@ nav .fa {
 .singleLink {
 	width: 100px;
 	height: 25px;
-	margin-top: 25px;
-	border: 1px solid #000;
+	/* margin-top: 25px; */
+	border: 1px solid #767676;
+	border-radius: 0.25rem;
+	text-align: center;
+	padding-bottom: 2px;
+	box-shadow: rgb(0 0 0 / 18%) 0px 1rem 3rem;
 
 
 }
@@ -289,13 +295,12 @@ nav .fa {
 .singleLink a {
 	text-decoration: none;
 	/* color: #000; */
-	color: #f44336;
+	color: #000;
 	font-size: 20px;
 	font-weight: 600;
 	transition: 0.5s;
-	/* font-family: 'Poppins', sans-serif; */
-	/* border: 1px solid #000; */
-	/* margin-top:  */
+	font-family: "poppins", sans-serif;
+	font-weight: bold;
 }
 
 /* End Application Section */
@@ -382,6 +387,7 @@ nav .fa {
 .card-column {
 	flex: 0 0 33.333%;
 	max-width: 33.333%;
+
 	/* flex-grow: 1; */
 }
 
@@ -405,6 +411,7 @@ nav .fa {
 
 .code-card img {
 	width: 100%;
+	border-radius: 20px;
 	/* height: auto; */
 }
 
